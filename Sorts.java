@@ -29,7 +29,7 @@ public class Sorts{
          
     }
     //Sorts the list of N elements contained in arr[0..N-1]
-    public static void quickSort (int[] arr, int N){
+    public static void quickSort(int[] arr, int N){
         sort(arr, 0, N-1);
         //return arr;
     }
